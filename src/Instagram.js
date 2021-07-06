@@ -34,26 +34,38 @@ function Instagram () {
         </div>
         <div className="inline-flex justify-between">
           <div className="text-3xl w-12 ">
-            <a href="#a">{home === 1 ? <TiHomeOutline /> : <TiHome />}</a>
+            <a href="#a">
+              {home === 1
+                ? <TiHomeOutline />
+                : <TiHome className="hover:text-blue-800" />}
+            </a>
           </div>
           <div className="text-3xl w-12 ">
             <a href="#a">
-              {direct === 1 ? <RiSendPlaneLine /> : <RiSendPlaneFill />}
+              {direct === 1
+                ? <RiSendPlaneLine className="hover:text-blue-800" />
+                : <RiSendPlaneFill />}
             </a>
           </div>
           {' '}
           <div className="text-3xl w-12 ">
             <a href="#a">
-              {safari === 1 ? <RiCompass3Line /> : <RiCompass3Fill />}
+              {safari === 1
+                ? <RiCompass3Line className="hover:text-blue-800" />
+                : <RiCompass3Fill />}
             </a>
           </div>
           <div className="text-3xl w-12 ">
-            <a href="#a">{like === 1 ? <RiHeart3Line /> : <RiHeart3Fill />}</a>
+            <a href="#a">
+              {like === 1
+                ? <RiHeart3Line className="hover:text-blue-800" />
+                : <RiHeart3Fill />}
+            </a>
           </div>
           <div className="w-12 ">
             <a href="#a">
               <img
-                className="rounded-full h-7"
+                className="rounded-full h-7 border-2 hover:border-blue-800"
                 src="https://media-exp3.licdn.com/dms/image/C5603AQF2qjNTfJRcIA/profile-displayphoto-shrink_200_200/0/1620764349101?e=1629331200&v=beta&t=tELDfafdUprAjKpCrT2xsEu76hVC6zZ69EDBgBe2qYU"
                 alt="userName"
               />
