@@ -15,17 +15,20 @@ function Nav () {
   const safari = 1;
   const like = 1;
   return (
-    <div>
-      <div className="bg-black-100 w-full content-start h-12 inline-flex justify-evenly items-center">
+    <div className="w-3/4 flex justify-center">
+      <div className="bg-black-100 w-full content-start h-12 inline-flex justify-evenly items-center ">
         <div className="">
-          <img
-            src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-            alt="instagram "
-          />
+          <a href="#a">
+            <img
+              src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+              alt="instagram "
+            />
+          </a>
+
         </div>
-        <div className="justify-items-center">
+        <div className="justify-items-center ">
           <input
-            className="justify-items-center border-2 text-center"
+            className="justify-items-center border-2 text-center rounded-md"
             type="text"
             placeholder="search"
           />
