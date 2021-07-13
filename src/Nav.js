@@ -8,12 +8,14 @@ import {
   RiHeart3Line,
   RiHeart3Fill,
 } from 'react-icons/ri';
+import {BiSearchAlt2} from 'react-icons/bi';
 
 function Nav () {
   const home = 0;
   const direct = 1;
   const safari = 1;
   const like = 1;
+
   return (
     <div className="w-3/4 flex justify-center">
       <div className="bg-black-100 w-full content-start h-12 inline-flex justify-evenly items-center ">
@@ -26,12 +28,19 @@ function Nav () {
           </a>
 
         </div>
-        <div className="justify-items-center ">
-          <input
-            className="justify-items-center border-2 text-center rounded-md"
-            type="text"
-            placeholder="search"
-          />
+        <div className="justify-items-center  ">
+          <div className="relative">
+
+            <input
+              className="justify-items-center border-2 text-center rounded-md inline-block"
+              type="text"
+              placeholder="search"
+            />
+          </div>
+
+          <div className="flex justify-center absolute">
+            <span className="inline-block" />
+          </div>
         </div>
         <div className="inline-flex justify-between">
           <div className="text-3xl w-12 ">

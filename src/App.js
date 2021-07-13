@@ -1,13 +1,11 @@
-import Instagram from "./Instagram";
+import Instagram from './Instagram';
 
-
-
-function App() {
+function App () {
   return (
-    < >
-    <Instagram/>
+    <div className="bg-gray-100">
+      <Instagram />
 
-  </>
+    </div>
   );
 }
 
